@@ -1,0 +1,11 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.col{
+    border: 1px solid #000;
+}
+[class^="col-"]{
+    border: 1px solid red;
+}
