@@ -1,0 +1,12 @@
+@media only screen and (min-width: 575px) {
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  #header__navbar--container {
+    justify-content: start;
+  }
+  #header__nava--request {
+    background: linear-gradient(90deg, rgb(38, 245, 98) 0%, rgb(97, 200, 174) 65%);
+  }
+}/*# sourceMappingURL=desktop.css.map */

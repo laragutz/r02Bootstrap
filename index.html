@@ -10,33 +10,35 @@
 </head>
 <body>
     <header>
-        <div class="navbar navbar-expand-sm">
-            <div class="container-fluid">
+        <div class="navbar w-100 navbar-expand-sm p-4">
+            <div class="container-fluid d-flex justify-content-center">
                 <a class="navbar-brand" href="#">
                     <img src="/img/logo.svg" alt="Logo"/>
                 </a>
-            </div>
-            <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNav"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-            >
-            <img src="/img/icon-hamburger.svg" alt="Logo de botón hamburguesa">
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul>
-                    <li><a>Home</a></li>
-                    <li><a>About</a></li>
-                    <li><a>Contact</a></li>
-                    <li><a>Blog</a></li>
-                    <li><a>Careers</a></li>
-                </ul>
-                <div class="container">
-                    <button>Request Invite</button>
+                <button
+                class="navbar-toggler border-2"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNav"
+                aria-controls="navbarNav"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+                >
+                <img src="/img/icon-hamburger.svg" alt="Logo de botón hamburguesa">
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <div class="containter d-flex" id="header__navbar--container">
+                        <ul class="navbar-nav w-50 d-flex justify-content-around">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Contact</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Careers</a></li>
+                        </ul>
+                        <div id="header__nav--request">
+                            <button class="header__navbar--request"><a href="#">Request Invite</a></button>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

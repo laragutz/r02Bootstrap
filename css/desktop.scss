@@ -1,0 +1,15 @@
+@media only screen and (min-width: 575px) {
+    a{
+        text-decoration: none;
+        color: inherit;
+    }
+
+    #header__navbar--container{
+        justify-content: start;
+    }
+
+    #header__nava--request{
+        background: linear-gradient(90deg, rgba(38,245,98,1) 0%, rgba(97,200,174,1) 65%);
+    }
+
+}

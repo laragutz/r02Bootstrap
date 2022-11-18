@@ -1,0 +1,18 @@
+@media only screen and (max-width: 575px) {
+    a{
+        text-decoration: none;
+        color: inherit;
+
+        #header__nav--request{
+            display: none;
+        }
+
+        #header__navbar--container{
+            justify-content: space-around;
+        }
+
+        #header__nava--request{
+            background: linear-gradient(90deg, rgba(38,245,98,1) 0%, rgba(97,200,174,1) 65%);
+        }
+    }
+}
